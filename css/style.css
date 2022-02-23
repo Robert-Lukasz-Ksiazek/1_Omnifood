@@ -9,6 +9,8 @@ Default: 400, 500, 600, 700
 
 LINE HEIGHTS:
 Default: 1
+Small: 10.5
+Paragraph: 1.6
 
 --- 02 COLORS
 Primary: #e67e22
@@ -22,6 +24,7 @@ Greys:
 --- 03 SHADOWS
 
 --- 04 BORDER RADIUS
+0.9 rem
 
 --- 05 WHITESPACES
 
@@ -204,4 +207,3 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
-/* test  ok*/
