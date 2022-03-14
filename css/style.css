@@ -286,6 +286,7 @@
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 .testimonials-container {
   padding: 9.6rem;
@@ -308,7 +309,7 @@
 }
 .testimonial-name {
   font-size: 1.6rem;
-  color: #777;
+  color: #6f6f6f;
 }
 .gallery {
   display: grid;
@@ -316,7 +317,20 @@
   gap: 1.6rem;
   padding: 1.6rem;
 }
+.gallery-item {
+  overflow: hidden;
+}
 .gallery-item img {
   display: block; /*to remove white space*/
   width: 100%; /*makes images as big as container*/
+  transition: all 0.4s;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+/* ******************************/
+/* PRICING SECTION*/
+/* ******************************/
+.section-pricing {
+  padding: 9.6rem 0;
 }
